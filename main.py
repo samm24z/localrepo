@@ -35,7 +35,7 @@ pairs = [
     ],
     [
         r"(.*)created(.*)",
-        ["Aman Kharwal created me using Python's NLTK library ", "top secret ;)", ]
+        ["Sam created me using Python's NLTK library ", "top secret ;)", ]
     ],
     [
         r"(.*) (location|city) ?",
@@ -69,4 +69,5 @@ pairs = [
 
 print("Hi, I'm thecleverprogrammer and I like to chat\nPlease type lowercase English language to start a conversation. Type quit to leave ")
 chat = Chat(pairs, reflections)
+
 chat.converse()
